@@ -1,0 +1,77 @@
+.w3-center {
+    text-align: center!important;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+user agent stylesheet
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+Inherited from div.w3-card-2.w3-round.w3-white
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+Inherited from body.w3-theme-l5
+.w3-theme-l5 {
+    color: #000 !important;
+    background-color: #f5f7f8 !important;
+}
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+Inherited from html
+html, body, h1, h2, h3, h4, h5 {
+    font-family: "Open Sans", sans-serif;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+Pseudo ::before element
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+Pseudo ::after element
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+margin15
+‒border‒
+‒padding‒
+‒158.234 × 106‒
+‒‒
+‒‒
+15
+
+Filter
+
+Show all
+box-sizing:
+border-box
+;
+color:
+rgb(0, 0, 0)
+;
+display:
+block
+;
+font-family:
+"Open Sans", sans-serif
+;
+font-size:
+15px
+;
+height:
+106px
