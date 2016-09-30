@@ -1,0 +1,103 @@
+body{ text-align:left;
+            font-family: verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("wood.jpg");
+}
+#links{ 
+    text-align: left;}
+h1{ text-align:center;
+    
+    color: black;
+    font-size:30px;
+    position:absolute;
+    left: 30em;
+    top: 1em;
+    
+    
+}
+    
+
+   
+
+
+nav{ 
+    background-color: black;
+    margin:0;
+    padding:.1px 1px;
+   font-size: 40px;
+   
+   
+}
+
+
+#mic li{display: inline;}
+#mic a{ color: white;}
+#mic li a {
+    text-decoration: none;}
+    
+
+
+
+
+#info { color: white;
+font-size: 30px;
+position: relative;
+left: 40px;}
+
+
+   
+  
+     
+
+       
+        
+#michael {
+    float: left;
+}
+table{
+    border-style:groove;
+    border-color:black;
+    font-family:"gyms";
+    color:white;
+    text-align:center;
+    float:inherit;
+    position:relative;
+    left:15px;
+    font-size: 25px;
+    border-width:  15px;
+}
+p {
+    color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+}
+h5 {color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+    
+}
+ol{color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+}
+    #Dic {
+       color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+    }
+    p2{
+        color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+    }

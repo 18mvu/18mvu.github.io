@@ -7,56 +7,63 @@ body{ text-align:left;
 }
 #links{ 
     text-align: left;}
+h1{ text-align:center;
+    
+    color: black;
+    font-size:30px;
+    position:absolute;
+    left: 30em;
+    top: 1em;
+    
+    
+}
+    
 #intro{ text-align:left;
         font-size: 30px;
-      
       color: white;
      width:39%;
      float:left;
      position: absolute;
    
 }
-h1{ text-align:center;
-    background-color:navy;
-    color: white;
-    font-size:500%;
-}
-.nav{ 
+
+nav{ 
     background-color: black;
-    height:120px;
-    
-    
-    }
-    .nav ul{
-        margin:0;
-        padding:0;
-    }
-    .nav ul li{
-        list-style: none;
-    }
-    .nav ul li a{
-        text-decoration: none;
-        
-        display:block;
-        padding: 10px 20px;
-        color: white;
-        background-color: black;
-        
-        
-    }
-    
-    .nav ul li a:hover {
-        color: navy
-    }
+    margin:0;
+    padding:.1px 1px;
+   font-size: 40px;
+   
+   
+}
+.GG {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{display: inline;}
+a{ color: white;}
+li a {
+    text-decoration: none;}
+
+
+
+
+
+
+
+   
     
     .images{ text-align:center;}
      ul{list-style-type:none;}
 /* Month Header*/
 .month {
     padding:70px 25px;
-    width:56.5%;
+    width:55.6%;
     background: #d55d23;
-    float: right;
+   float:right;
+   text-align: center;
     
 }
 /* Month List*/
@@ -83,16 +90,17 @@ h1{ text-align:center;
         /*weekdays (mon-sun) */
         .weekdays {
             margin: 0;
-            padding: 10px 2px;
+            padding: 15px 4px;
             background-color: #ddd;
-            width: 60%;
+            width: 58.7%;
             float: right;
             height: 40px;
-            border:solid black;
+            
         }
         .weekdays li {
-            display: inline-block;
-            width: 13.6%;
+            display: inline-block ;
+            
+            width: 17%;
             color: #666;
             text-align: center;
         }
@@ -101,23 +109,73 @@ h1{ text-align:center;
             padding-bottom: 10px 0;
             background: #eee;
             margin: 0;
-            width: 57.3%;
+            width: 56.4%;
             float: right;
+            height:30em;
         }
         .days li {
             list-style-type:  none;
             display: inline-block;
             width: 13.6%;
-            text-align: left;
-            margin-bottom: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+            margin-left: 1px;
+            margin-right: 20px;
             font-size: 12px;
             color: #777;
+            height:5em;
+            border-bottom-style: solid;
+            border-left-style: solid;
+            border-right-style: solid;
+            border-top-style: solid;
         }
     /* highlight the "current" day */
  .days li .active {
-     padding: 5px;
+     padding: 7px;
      background:#d55d23;
      color: white !important
  }
         head { border: solid;
         background: blue;}
+        
+#michael {
+    float: left;
+}
+table{
+    border-style:groove;
+    border-color:black;
+    font-family:"gyms";
+    color:white;
+    text-align:center;
+    float:inherit;
+    position:relative;
+    left:15px;
+    font-size: 25px;
+    border-width:  15px;
+}
+p {
+    color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+}
+h5 {color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+    
+}
+ol{color: white;
+    font-size: 25px;
+    border: groove;
+    border-color: black;
+    border-width: 15px;
+}
+img{
+    position: relative;
+    top:20em;
+    left: 0em;
+}
+    
